@@ -1,11 +1,11 @@
 
-/* My name */
+/* Me */
 
 #attribution {
   color: white;
-  margin-top: 1vh;
+  margin-top: 1vw;
   margin-left: 1vw;
-  font-size: 2vh;
+  font-size: 1vw;
 }
 
 /* Background */
@@ -19,16 +19,16 @@ body {
 #quote-box {
   background-color: white;
   margin: auto;
-  margin-top: 10vh;
-  height: 40vh;
+  margin-top: 7vw;
+  height: 21vw;
   width: 50vw;
 }
 
 /* Quote Text */
 
 #text-area {
-  font-size: 5.5vh;
-  margin-top:1.5vh;
+  font-size: 3vw;
+  margin-top:1.5vw;
   margin-left:1.5vw;
   margin-right:1.5vw;
 }
@@ -36,7 +36,7 @@ body {
 /* The button flex container */
 
 .button-container {
-  margin-top: 4vh;
+  margin-top: 4vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -47,7 +47,7 @@ body {
 #new-quote-button{
   margin-right: 8vw;
   color: black;
-  height: 4vh;
+  height: 4vw;
   font-size:1.5vw;
  
 }
@@ -55,7 +55,7 @@ body {
   /* margin-left: 20vw; */
   /* margin-right:28vw; */
   color: black;
-  height: 4vh;
+  height: 4vw;
   font-size:1.5vw;
  }
 
