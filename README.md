@@ -1,1 +1,2 @@
-# Random-Quote-Machine
+# Random-Quote-Generator
+A random quote generator
