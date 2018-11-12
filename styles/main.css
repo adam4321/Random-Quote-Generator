@@ -22,6 +22,7 @@ body {
   margin-top: 7vw;
   height: 21vw;
   width: 50vw;
+  border-radius: .1vw;
 }
 
 /* Quote Text */
@@ -49,11 +50,12 @@ body {
   color: black;
   height: 4vw;
   font-size:1.5vw;
- 
+  border-radius: .1vw;
 }
 #twit-button {
   color: black;
   height: 4vw;
   font-size:1.5vw;
+  border-radius: .1vw;
  }
 
