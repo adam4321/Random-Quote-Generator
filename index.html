@@ -10,9 +10,6 @@
 <!-- Beginning of the page -->
 <body>
 
-<!-- The attribution -->
-   <p class=text-center id="attribution">By  Adam  Wright
-   </p>
    
   <!-- The quote box -->
   <div class="well" id="quote-box">
@@ -23,16 +20,16 @@
 <!-- The button container div -->
 <div class="button-container">
 
-  <button  id="new-quote-button" onclick="GetValue();">A new quote
-</button>
+  <button class='btn'  id="new-quote-button" onclick="setTimeout(function(){GetValue()}, 400)">A new quote
+  </button>
   
-<button  id="twit-button" onclick="tweetIt()">Tweet it out
-</button>
+  <button class='btn'  id="twit-button" onclick="tweetIt()">Tweet it out
+  </button>
 
 </div>
 
 
-<script type="text/javascript" src="scripts/main.js" >
-</script>
-</body>
+  <script type="text/javascript" src="scripts/main.js" >
+  </script>
+ </body>
 </html>

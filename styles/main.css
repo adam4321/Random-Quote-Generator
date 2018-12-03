@@ -23,6 +23,7 @@ body {
   height: 21vw;
   width: 50vw;
   border-radius: .1vw;
+  box-shadow: 2px 3px 4px 6px #0001532c;
 }
 
 /* Quote Text */
@@ -52,10 +53,20 @@ body {
   font-size:1.5vw;
   border-radius: .1vw;
 }
+
 #twit-button {
   color: black;
   height: 4vw;
   font-size:1.5vw;
   border-radius: .1vw;
  }
+.btn {
+  box-shadow: 2px 3px 4px 6px #0001532c;
+  transition: 0.3s;
+}
+ .btn:hover {
+  background-color: rgb(175, 166, 166);
+  border-color: black;
+  color:rgb(43, 41, 41);
+}
 
