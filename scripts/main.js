@@ -24,3 +24,7 @@ function tweetIt () {
     
   window.open(tweetUrl);
 }
+
+function goBack() {
+  window.history.back();
+}
