@@ -1,6 +1,8 @@
 
 /* Background */
 
+
+
 body {
   background-color: #4457a8;
   }
@@ -9,7 +11,7 @@ body {
   
 #quote-box {
   background-color: white;
-  margin: auto;
+  margin:0 auto;
   margin-top: 7vw;
   height: 21vw;
   width: 50vw;
