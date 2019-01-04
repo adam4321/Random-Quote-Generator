@@ -1,7 +1,11 @@
-# Random-Quote-Generator
+# This is a random quote generator built using vanilla JavaScript. You can click on the left hand button to generate a new quote or click the right hand button to tweet out the quote.
 
-![Logo](https://i.imgur.com/dIWWzLg.png)
+## Desktop View
 
-A random quote generator built in vanilla HTML, CSS, and JavaScript  
+![Desktop View](https://i.imgur.com/dIWWzLg.png)
 
-You can click on the left hand button to generate a new quote or click the right hand button to tweet out the quote.
+## Movile View
+
+![Movile View](https://i.imgur.com/9OFNt3w.png)
+
+
