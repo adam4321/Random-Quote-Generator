@@ -4,8 +4,8 @@
 
 ![Desktop View](https://i.imgur.com/dIWWzLg.png)
 
-## Movile View
+## Mobile View
 
-![Movile View](https://i.imgur.com/9OFNt3w.png)
+![Mobile View](https://i.imgur.com/9OFNt3w.png)
 
 
