@@ -1,13 +1,11 @@
 
 /* Background */
 
-
-
 body {
   background-color: #4457a8;
   }
 
-  /* Quote Container */
+/* Quote Container */
   
 #quote-box {
   background-color: white;
@@ -56,10 +54,12 @@ body {
   border-radius: .1vw;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
  }
+
 .btn {
   box-shadow: 2px 3px 4px 6px #0001532c;
   transition: 0.3s;
 }
+
 @media only screen and (min-width:900px) {
  .btn:hover {
   background-color: rgb(175, 166, 166);
@@ -67,10 +67,7 @@ body {
   color:rgb(43, 41, 41);
  }
 }
-/* button {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
 
-} */
 
 #back-button {
   width:8vw;
