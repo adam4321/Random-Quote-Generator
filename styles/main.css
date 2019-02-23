@@ -1,5 +1,4 @@
 
-/* Background */
 
 body {
   background-color: #4457a8;
@@ -60,6 +59,8 @@ body {
   transition: 0.3s;
 }
 
+/* Media query above 900 px */
+
 @media only screen and (min-width:900px) {
  .btn:hover {
   background-color: rgb(175, 166, 166);
@@ -112,6 +113,8 @@ a:hover {
   height:115px;
   margin-left:-40px;
 }
+
+/* Media query below 900 px */
 
 @media only screen and (max-width:900px) {
   
