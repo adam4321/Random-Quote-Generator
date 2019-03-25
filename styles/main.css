@@ -1,7 +1,7 @@
 
 body {
   background-color: #4457a8;
-  }
+}
 
 /* quote container */
   
@@ -51,21 +51,11 @@ body {
   font-size:1.5vw;
   border-radius: .1vw;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
- }
+}
 
 .btn {
   box-shadow: 2px 3px 4px 6px #0001532c;
   transition: 0.3s;
-}
-
-/* media query above 900 px */
-
-@media only screen and (min-width:900px) {
- .btn:hover {
-  background-color: rgb(175, 166, 166);
-  border-color: black;
-  color:rgb(43, 41, 41);
- }
 }
 
 #back-button {
@@ -81,15 +71,12 @@ body {
   box-shadow: 2px 4.5px 4px 0px rgb(27, 26, 26);
 }
 
-a{
+a {
   text-decoration: none;
   text-align: center;
   display:inline-block;
   color:gold;
   font-size:1.1vw;
-}
-
- a {
   -webkit-transition: 0.4s;
   -moz-transition:  0.4s;
   -o-transition: 0.4s;
@@ -107,10 +94,21 @@ a:hover {
   transition: 0.4s;
 }
 
-.darken{
+.darken {
   width:210px;
   height:115px;
   margin-left:-40px;
+}
+
+/* media query above 900 px */
+
+@media only screen and (min-width:900px) {
+  
+  .btn:hover {
+   background-color: rgb(175, 166, 166);
+   border-color: black;
+   color:rgb(43, 41, 41);
+  }
 }
 
 /* media query below 900 px */
@@ -127,35 +125,35 @@ a:hover {
     box-shadow: 2px 3px 4px 6px #0001532c;
   }
   
-#text-area {
-  font-size: 7vw;
-  padding:2vw;
-  margin-top:1.5vw;
-  margin-left:1.5vw;
-  margin-right:1.5vw;
-}
+  #text-area {
+    font-size: 7vw;
+    padding:2vw;
+    margin-top:1.5vw;
+    margin-left:1.5vw;
+    margin-right:1.5vw;
+  }
 
-.button-container {
-  margin-top: 11vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+  .button-container {
+    margin-top: 11vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-#new-quote-button{
-  margin-right: 7vw;
-  height: 8vw;
-  width:35vw;
-  font-size:5vw;
-  border-radius: 3px;
-}
+  #new-quote-button {
+    margin-right: 7vw;
+    height: 8vw;
+    width:35vw;
+    font-size:5vw;
+    border-radius: 3px;
+  }
 
-#twit-button {
-  height: 8vw;
-  width:35vw;
-  font-size:5vw;
-  border-radius: .1vw;
- }
+  #twit-button {
+    height: 8vw;
+    width:35vw;
+    font-size:5vw;
+    border-radius: .1vw;
+  }
 
   #back-button {
     width:30vw;
