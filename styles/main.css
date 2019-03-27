@@ -3,7 +3,7 @@ body {
   background-color: #4457a8;
 }
 
-/* quote container */
+/* Quote container */
   
 #quote-box {
   background-color: white;
@@ -15,7 +15,7 @@ body {
   box-shadow: 2px 3px 4px 6px #0001532c;
 }
 
-/* quote text */
+/* Quote text */
 
 #text-area {
   font-size: 3vw;
@@ -24,7 +24,7 @@ body {
   margin-right:1.5vw;
 }
 
-/* button flex container */
+/* Button flex container */
 
 .button-container {
   margin-top: 4vw;
@@ -33,7 +33,7 @@ body {
   justify-content: center;
 }
 
-/* buttons */
+/* Buttons style */
 
 #new-quote-button {
   margin-right: 8vw;
@@ -100,7 +100,7 @@ a:hover {
   margin-left:-40px;
 }
 
-/* media query above 900 px */
+/* Media query above 900 px */
 
 @media only screen and (min-width:900px) {
   
@@ -111,7 +111,7 @@ a:hover {
   }
 }
 
-/* media query below 900 px */
+/* Media query below 900 px */
 
 @media only screen and (max-width:900px) {
   
