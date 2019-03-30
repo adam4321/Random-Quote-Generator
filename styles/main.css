@@ -7,7 +7,7 @@ body {
   
 #quote-box {
   background-color: white;
-  margin:0 auto;
+  margin: 0 auto;
   margin-top: 7vw;
   height: 21vw;
   width: 50vw;
@@ -19,9 +19,9 @@ body {
 
 #text-area {
   font-size: 3vw;
-  margin-top:1.5vw;
-  margin-left:1.5vw;
-  margin-right:1.5vw;
+  margin-top: 1.5vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
 }
 
 /* Button flex container */
@@ -37,18 +37,18 @@ body {
 
 #new-quote-button {
   margin-right: 8vw;
-  width:11vw;
+  width: 11vw;
   color: black;
   height: 4vw;
-  font-size:1.5vw;
+  font-size: 1.5vw;
   border-radius: .1vw;
 }
 
 #twit-button {
   color: black;
   height: 4vw;
-  width:11vw;
-  font-size:1.5vw;
+  width: 11vw;
+  font-size: 1.5vw;
   border-radius: .1vw;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -59,14 +59,14 @@ body {
 }
 
 #back-button {
-  width:8vw;
-  height:2vw;
-  background-color:#04536d;
-  position:absolute;
-  left:46vw;
-  margin-top:5.5vw;
+  width: 8vw;
+  height: 2vw;
+  background-color: #04536d;
+  position: absolute;
+  left: 46vw;
+  margin-top: 5.5vw;
   border-radius: 11px;
-  font-family:verdana;
+  font-family: verdana;
   padding-top: .7vw;
   box-shadow: 2px 4.5px 4px 0px rgb(27, 26, 26);
 }
@@ -74,9 +74,9 @@ body {
 a {
   text-decoration: none;
   text-align: center;
-  display:inline-block;
-  color:gold;
-  font-size:1.1vw;
+  display: inline-block;
+  color: gold;
+  font-size: 1.1vw;
   -webkit-transition: 0.4s;
   -moz-transition:  0.4s;
   -o-transition: 0.4s;
@@ -87,7 +87,7 @@ a {
 a:hover {
   cursor: pointer;
   color: rgba(154, 182, 196, 0.582);
-  opacity:0.7;
+  opacity: 0.7;
   -webkit-transition: 0.4s;
   -moz-transition:  0.4s;
   -o-transition: 0.4s;
@@ -95,9 +95,9 @@ a:hover {
 }
 
 .darken {
-  width:210px;
-  height:115px;
-  margin-left:-40px;
+  width: 210px;
+  height: 115px;
+  margin-left: -40px;
 }
 
 /* Media query above 900 px */
@@ -107,7 +107,7 @@ a:hover {
   .btn:hover {
    background-color: rgb(175, 166, 166);
    border-color: black;
-   color:rgb(43, 41, 41);
+   color: rgb(43, 41, 41);
   }
 }
 
@@ -127,10 +127,10 @@ a:hover {
   
   #text-area {
     font-size: 7vw;
-    padding:2vw;
-    margin-top:1.5vw;
-    margin-left:1.5vw;
-    margin-right:1.5vw;
+    padding: 2vw;
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
   }
 
   .button-container {
@@ -143,24 +143,24 @@ a:hover {
   #new-quote-button {
     margin-right: 7vw;
     height: 8vw;
-    width:35vw;
-    font-size:5vw;
+    width: 35vw;
+    font-size: 5vw;
     border-radius: 3px;
   }
 
   #twit-button {
     height: 8vw;
-    width:35vw;
-    font-size:5vw;
+    width: 35vw;
+    font-size: 5vw;
     border-radius: .1vw;
   }
 
   #back-button {
-    width:30vw;
-    height:8vw;
-    left:35vw;
-    font-size:5vw;
-    margin-top:11vw;
+    width: 30vw;
+    height: 8vw;
+    left: 35vw;
+    font-size: 5vw;
+    margin-top: 11vw;
     border-radius: 11px;
     padding-top: 2vw;
     box-shadow: 1px 3.5px 3px 0px rgb(27, 26, 26);
@@ -168,13 +168,13 @@ a:hover {
 
   .btn:focus {
     outline: none;
-    border:none;
+    border: none;
   }
 
   .btn:hover:active {
     background-color: rgb(175, 166, 166);
     border-color: black;
-    color:rgb(43, 41, 41);
+    color: rgb(43, 41, 41);
   }
 }
 
