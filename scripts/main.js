@@ -10,9 +10,15 @@ function getValue() {
     document.getElementById("text-area").innerHTML = quote; 
 }
 
-// Calling the quote randomizing function
+// Initial page load call to the quote randomizing function
 
 getValue();
+
+// Event listener for new quote button
+
+document.getElementById('new-quote-button').addEventListener('click', getValue);
+
+
 
 // Function to tweet the current quote on Twitter
 
