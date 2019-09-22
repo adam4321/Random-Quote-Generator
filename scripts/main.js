@@ -18,9 +18,7 @@ getValue();
 
 function tweetIt() {
     let phrase = document.getElementById('text-area').innerText;
-    let tweetUrl = 'https://twitter.com/share?text=' +
-    encodeURIComponent(phrase) +
-    '#quotes';
+    let tweetUrl = `https://twitter.com/share?text=${encodeURIComponent(phrase)}#quotes`;
 
     window.open(tweetUrl);
 }
