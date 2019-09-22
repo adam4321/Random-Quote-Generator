@@ -61,7 +61,7 @@ function getValue() {
     let quote = myArray[idx][0];
     let author = myArray[idx][1];
 
-    document.getElementById("text-area").innerHTML = `${quote}<br><br> - ${author}`; 
+    document.getElementById("text-area").innerHTML = `"${quote}"<br><br> - ${author}`; 
 }
 
 // Initial page load call to the quote randomizing function
