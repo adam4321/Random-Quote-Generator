@@ -12,13 +12,15 @@
   document.getElementById("text-area").innerHTML = quote; 
 }
 
+
+
 // Calling the quote randomizing function
 
 getValue();
 
-// Tweets out the current quote
+// Function to tweet the current quote on Twitter
 
-function tweetIt () {
+function tweetIt() {
   let phrase = document.getElementById('text-area').innerText;
   let tweetUrl = 'https://twitter.com/share?text=' +
     encodeURIComponent(phrase) +
@@ -26,6 +28,11 @@ function tweetIt () {
     
   window.open(tweetUrl);
 }
+// Event listener for tweeting quote
+
+document.getElementById('twit-button').addEventListener('click', tweetIt);
+
+// Function to allow the user to go back without the back button 
 
 function goBack() {
   window.history.back();
