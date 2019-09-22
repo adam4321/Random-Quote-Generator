@@ -1,5 +1,3 @@
-  
-  // @ts-check
 
   // Array variable holding quotes
   
@@ -37,3 +35,7 @@ document.getElementById('twit-button').addEventListener('click', tweetIt);
 function goBack() {
   window.history.back();
 }
+
+// Event listener for back function
+
+document.getElementById('back-button').addEventListener('click', goBack);
