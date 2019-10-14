@@ -1,6 +1,12 @@
+/**********************************************************************
+**  Author:      Adam Wright
+**  Description: Random quote generator that runs in a single web page.
+**               The quotes are held in the 2d array at the top of this
+**               file. 
+**********************************************************************/
+
 
 // 2D array holding quotes and authors
-
 let myArray = new Array(
     ['Don\'t cry because it\'s over, smile because it happened.', 'Dr.Seuss'],
     ['There is a natural aristocracy among men. The grounds of this are virtue and talents.', 'Thomas Jefferson'],
@@ -57,7 +63,6 @@ let myArray = new Array(
 
 
 // Function for calling a random array element
-
 function getValue() {
     let idx = Math.floor(Math.random() * myArray.length);
     let quote = myArray[idx][0];
@@ -67,16 +72,13 @@ function getValue() {
 }
 
 // Initial page load call to the quote randomizing function
-
 getValue();
 
 // Event listener for new quote button
-
 document.getElementById('new-quote-button').addEventListener('click', getValue);
 
 
 // Function to tweet the current quote on Twitter
-
 function tweetIt() {
     let phrase = document.getElementById('text-area').innerText;
     let tweetUrl = `https://twitter.com/share?text=${encodeURIComponent(phrase)}#quotes`;
@@ -85,16 +87,13 @@ function tweetIt() {
 }
 
 // Event listener for tweeting quote
-
 document.getElementById('twit-button').addEventListener('click', tweetIt);
 
 
 // Function to allow the user to go back without the back button 
-
 function goBack() {
     window.history.back();
 }
 
 // Event listener for back function
-
 document.getElementById('back-button').addEventListener('click', goBack);
