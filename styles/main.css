@@ -6,7 +6,7 @@ body {
   background-color: #4457a8;
 }
 
-/* Quote container */
+/* Quote container --------------------------------------------------------- */
   
 #quote-box {
   background-color: white;
@@ -18,7 +18,7 @@ body {
   box-shadow: 2px 3px 4px 6px #0001532c;
 }
 
-/* Quote text */
+/* Quote text -------------------------------------------------------------- */
 
 #text-area {
   font-size: 3vw;
@@ -27,7 +27,7 @@ body {
   margin-right: 1.5vw;
 }
 
-/* Button flex container */
+/* Button flex container --------------------------------------------------- */
 
 .button-container {
   margin-top: 4vw;
@@ -36,7 +36,7 @@ body {
   justify-content: center;
 }
 
-/* Buttons style */
+/* Buttons style ----------------------------------------------------------- */
 
 #new-quote-button {
   margin-right: 8vw;

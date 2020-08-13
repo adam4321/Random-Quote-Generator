@@ -2,7 +2,7 @@
 **  Css file that holds the responsive media queries
 ******************************************************/
 
-/* Media query above 900 px */
+/* Media query above 900 px ------------------------------------------------ */
 
 @media only screen and (min-width:900px) {
   
@@ -13,7 +13,7 @@
     }
 }
   
-/* Media query below 900 px */
+/* Media query below 900 px ------------------------------------------------ */
   
 @media only screen and (max-width:900px) {
     
