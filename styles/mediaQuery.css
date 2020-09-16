@@ -7,9 +7,9 @@
 @media only screen and (min-width:900px) {
   
     .btn:hover {
-     background-color: rgb(175, 166, 166);
-     border-color: black;
-     color: rgb(43, 41, 41);
+        background-color: rgb(175, 166, 166);
+        border-color: black;
+        color: rgb(43, 41, 41);
     }
 }
   
@@ -18,65 +18,65 @@
 @media only screen and (max-width:900px) {
     
     #quote-box {
-      background-color: white;
-      margin: auto;
-      margin-top: 10vw;
-      height: 70vw;
-      width: 85vw;
-      border-radius: 3px;
-      box-shadow: 2px 3px 4px 6px #0001532c;
+        background-color: white;
+        margin: auto;
+        margin-top: 10vw;
+        height: 70vw;
+        width: 85vw;
+        border-radius: 3px;
+        box-shadow: 2px 3px 4px 6px #0001532c;
     }
     
     #text-area {
-      font-size: 7vw;
-      padding: 2vw;
-      margin-top: 1.5vw;
-      margin-left: 1.5vw;
-      margin-right: 1.5vw;
+        font-size: 7vw;
+        padding: 2vw;
+        margin-top: 1.5vw;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
     }
   
     .button-container {
-      margin-top: 11vw;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
+        margin-top: 11vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
   
     #new-quote-button {
-      margin-right: 7vw;
-      height: 8vw;
-      width: 35vw;
-      font-size: 5vw;
-      border-radius: 3px;
+        margin-right: 7vw;
+        height: 8vw;
+        width: 35vw;
+        font-size: 5vw;
+        border-radius: 3px;
     }
   
     #twit-button {
-      height: 8vw;
-      width: 35vw;
-      font-size: 5vw;
-      border-radius: .1vw;
+        height: 8vw;
+        width: 35vw;
+        font-size: 5vw;
+        border-radius: .1vw;
     }
   
     #back-button {
-      width: 30vw;
-      height: 8vw;
-      left: 35vw;
-      font-size: 5vw;
-      margin-top: 11vw;
-      border-radius: 11px;
-      padding-top: 2vw;
-      box-shadow: 1px 3.5px 3px 0px rgb(27, 26, 26);
+        width: 30vw;
+        height: 8vw;
+        left: 35vw;
+        font-size: 5vw;
+        margin-top: 11vw;
+        border-radius: 11px;
+        padding-top: 2vw;
+        box-shadow: 1px 3.5px 3px 0px rgb(27, 26, 26);
     }
   
     .btn:focus {
-      outline: none;
-      border: none;
+        outline: none;
+        border: none;
     }
   
     .btn:hover:active {
-      background-color: rgb(175, 166, 166);
-      border-color: black;
-      color: rgb(43, 41, 41);
+        background-color: rgb(175, 166, 166);
+        border-color: black;
+        color: rgb(43, 41, 41);
     }
 }
   
