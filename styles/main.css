@@ -4,6 +4,24 @@
 
 body {
     background-color: #4457a8;
+    margin: 0;
+}
+
+#gh-bar {
+    background-color: black;
+    text-align: center;
+    font-family: verdana;
+    padding-top: 16px;
+    width: 100%;
+    height: 36px;
+    -webkit-box-shadow: 0px 3px 5px rgba(56, 56, 56, 0.795);
+    -moz-box-shadow:    0px 3px 5px rgba(56, 56, 56, 0.795);
+    box-shadow:         0px 3px 5px rgba(56, 56, 56, 0.795);
+}
+
+#gh-link {
+    text-decoration: none;
+    color: white;
 }
 
 /* Quote container --------------------------------------------------------- */
@@ -11,7 +29,7 @@ body {
 #quote-box {
     background-color: white;
     margin: 0 auto;
-    margin-top: 7vw;
+    margin-top: 80px;
     height: 21vw;
     width: 50vw;
     border-radius: .1vw;
@@ -62,7 +80,7 @@ body {
 }
 
 #back-button {
-    width: 8vw;
+    width: 8.5vw;
     height: 2vw;
     background-color: #04536d;
     position: absolute;
